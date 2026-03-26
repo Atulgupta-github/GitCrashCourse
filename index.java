@@ -5,12 +5,18 @@ class Main{
 
         String role ="";
 
+        System.out.println( getName());
+
         
 
         
     }
 
-    public String getName(){
+    public static String getName(){
         return "Atul";
+    }
+
+    public static int sum(int x,int y){
+        return x+y;
     }
 }
