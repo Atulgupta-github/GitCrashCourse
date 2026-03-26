@@ -3,7 +3,7 @@ class Main{
 
         String name ="Atul Gupta";
 
-        String role ="";
+        
 
         System.out.println( getName());
 
