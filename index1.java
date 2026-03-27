@@ -14,6 +14,10 @@ class Student{
          
 
     }
+
+    public static void printLinkedList(Node head){
+        
+    }
 }
 
 class Node{
