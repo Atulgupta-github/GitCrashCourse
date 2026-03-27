@@ -16,7 +16,10 @@ class Student{
     }
 
     public static void printLinkedList(Node head){
-        
+        Node curr =head;
+        while(curr!= null){
+            
+        }
     }
 }
 
