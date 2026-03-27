@@ -18,7 +18,8 @@ class Student{
     public static void printLinkedList(Node head){
         Node curr =head;
         while(curr!= null){
-            
+            System.out.println(curr.data);
+            curr= curr.next;
         }
     }
 }
