@@ -29,6 +29,16 @@ class Student{
             temp.next= head;
             return temp;
     }
+
+    public static Node insertLast(Node head, int x){
+            Node temp = new Node(x);
+            Node curr =head;
+            while(curr.next!= null){
+                curr= curr.next;
+            }
+            curr.next=null;
+            return head;
+    }
 }
 
 class Node{
